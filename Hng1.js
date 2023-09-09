@@ -1,3 +1,4 @@
+/* my javascript */
 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         const currentDate = new Date();
         const currentDayIndex = currentDate.getDay();
