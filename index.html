@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="hngs.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Slack: About Me</title>
     
 </head>
@@ -14,14 +14,13 @@
         <!--My slack username-->
     <div class="profile">
         <h1 data-testid="slackUserName">Omorohwovo Melody</h1>
-        <div class="image-container"></div>
-        <img src="./idphoto.png" alt="Omorohwovo Melody" data-testid="slackDisplayImage">
+        <img data-testid="slackDisplayImage" src="./idphoto.png"  alt="Omorohwovo Melody">
         <p data-testid="currentDayOfTheWeek" id="dayOfWeek"></p>
         <p data-testid="currentUTCTime" id="timeOfTheDay"></p>
-        <p data-testid="myTrack">Frontend Track</p>
-        <a href="https://github.com/melody-omoro2/hngstage1" data-testid="githubURL" target="_blank">GitHub Repository</a>
+        <p data-testid="myTrack">Frontend</p>
+        <a data-testid="githubURL" href="https://github.com/melody-omoro2/hngstage1">GitHub Repository</a>
     </div>
     </div>
-    <script src="hng.js"> </script>
+    <script src="./script.js"> </script>
 </body>
 </html>
