@@ -13,7 +13,8 @@ const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fri
 
         function updateTimestamp() {
             const currentUtcTimestamp = getCurrentUtcTimestamp();
-            document.getElementById("timesOfTheDay").textContent = currentUtcTimestamp;
+            const time = document.querySelector(`[data-testid="currentUTCTime"]`);
+            time.textContent = currentUtcTimestamp;
         }
 
         // Update the timestamp every second (1000 milliseconds)
